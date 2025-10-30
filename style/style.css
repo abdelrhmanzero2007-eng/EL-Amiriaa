@@ -453,10 +453,12 @@ body {
   #section1 .right {
     width: 90%;
     margin-left: 5%;
+    margin-bottom: 50px;
   }
   #section2 {
     height: 100vh;
     padding: 0;
+    
   }
   #section2 .continar {
     flex-direction: column;
