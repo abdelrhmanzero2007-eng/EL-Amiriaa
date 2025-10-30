@@ -65,6 +65,7 @@ body {
 .header nav button,
 .sersh-icon {
   cursor: pointer;
+  
 }
 
 .header nav a {
@@ -82,9 +83,10 @@ body {
   display: flex;
 }
 
-.header .bars {
+.bars {
   display: none;
 }
+
 
 .header nav button {
   width: 100px;
