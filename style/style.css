@@ -65,7 +65,6 @@ body {
 .header nav button,
 .sersh-icon {
   cursor: pointer;
-  
 }
 
 .header nav a {
@@ -85,8 +84,8 @@ body {
 
 .bars {
   display: none;
+  transition: 0.7s ease-out;
 }
-
 
 .header nav button {
   width: 100px;
@@ -443,13 +442,12 @@ body {
 
 @media (max-width: 670px) {
   #section1 {
-    height: 190vh;
+    height: 180vh;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
     margin-top: 0;
     transition: 0.5s ease-out;
-
   }
 
   #section1 .right {
@@ -488,6 +486,7 @@ body {
     position: absolute;
     top: 11%;
     right: 30px;
+    cursor: pointer;
   }
 
   .header .bars i {
@@ -509,7 +508,6 @@ body {
     padding: 0;
 
     transition: 0.5s ease-out;
-
   }
 
   .header.actev {
@@ -536,15 +534,14 @@ body {
     padding: 20px;
     margin: auto;
     transition: 0.5s ease-out;
-
   }
-  .header.actev nav a{
+  .header.actev nav a {
     border-bottom: 1px solid #3333;
     width: 30%;
     padding: 8px 0;
   }
 
-  .header.actev nav button{
+  .header.actev nav button {
     width: 30%;
   }
 }
