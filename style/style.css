@@ -16,7 +16,7 @@
 body {
   height: 1000vh;
 }
-header {
+.header {
   width: 100%;
   height: 10vh;
   margin-top: 20px;
@@ -62,27 +62,31 @@ header {
   color: #ffff;
 }
 
-header nav button,
+.header nav button,
 .sersh-icon {
   cursor: pointer;
 }
 
-header nav a {
+.header nav a {
   color: #656638;
   font-size: 18px;
   font-weight: 500;
   text-decoration: none;
   margin: 0 10px;
 }
-header nav {
+.header nav {
   position: relative;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
-header .none {
+.header .bars {
   display: none;
 }
 
-header nav button {
+.header nav button {
   width: 100px;
   height: 40px;
   border: 0;
@@ -113,7 +117,7 @@ header nav button {
 
 .logo {
   width: 100px;
-  height: 180%;
+  height: 120px;
   margin-left: 20px;
 }
 .logo img {
@@ -387,35 +391,31 @@ header nav button {
   display: flex;
 }
 
-#section4 .right .pirse h3{
+#section4 .right .pirse h3 {
   font-size: 23px;
   color: green;
   background-color: honeydew;
-  padding:5px 10px;
+  padding: 5px 10px;
   border-radius: 20px;
-} 
-#section4 .right .pirse del{
-
+}
+#section4 .right .pirse del {
   font-size: 17px;
   color: rgb(255, 2, 2);
   background-color: rgba(255, 164, 164, 0.459);
-  padding:5px 10px;
+  padding: 5px 10px;
   border-radius: 20px;
 }
 
-
-#section4 .right .pirse button{
-
-width: 200px;
-height: 40px;
-border-radius: 20px;
-border: 0;
-font-size: 18px;
-font-weight: 500;
-color: #fff;
-background-color: rgb(11, 235, 255);
+#section4 .right .pirse button {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  background-color: rgb(11, 235, 255);
 }
-
 
 .custom-shape-divider-top-1760909051 {
   position: absolute;
@@ -437,4 +437,112 @@ background-color: rgb(11, 235, 255);
 
 .custom-shape-divider-top-1760909051 .shape-fill {
   fill: #ffffff;
+}
+
+@media (max-width: 670px) {
+  #section1 {
+    height: 190vh;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 0;
+    transition: 0.5s ease-out;
+
+  }
+
+  #section1 .right {
+    width: 90%;
+    margin-left: 5%;
+  }
+  #section2 {
+    height: 100vh;
+    padding: 0;
+  }
+  #section2 .continar {
+    flex-direction: column;
+  }
+  #section2 .continar .item {
+    width: 90%;
+  }
+
+  #section3 {
+    height: 150vh;
+    flex-direction: column;
+  }
+
+  #section3 .item {
+    width: 90%;
+  }
+  #section3 .item:hover .descawent {
+    top: 58%;
+    left: 0;
+    opacity: 1;
+  }
+  .header .bars {
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    position: absolute;
+    top: 11%;
+    right: 30px;
+  }
+
+  .header .bars i {
+    font-size: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s ease-out;
+  }
+
+  .header nav,
+  .sershe {
+    display: none;
+  }
+
+  .header {
+    height: 19vh;
+    align-items: flex-start;
+    padding: 0;
+
+    transition: 0.5s ease-out;
+
+  }
+
+  .header.actev {
+    height: 70vh;
+    transition: 0.5s ease-out;
+  }
+  .header .bars i {
+    opacity: 0;
+  }
+  .header .bars i.actev {
+    opacity: 1;
+  }
+
+  .header.actev nav {
+    display: block;
+    position: absolute;
+    top: 130px;
+    height: 50%;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    transition: 0.5s ease-out;
+
+  }
+  .header.actev nav a{
+    border-bottom: 1px solid #3333;
+    width: 30%;
+    padding: 8px 0;
+  }
+
+  .header.actev nav button{
+    width: 30%;
+  }
 }
