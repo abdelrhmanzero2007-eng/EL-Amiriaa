@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Geologica:wght@100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Readex+Pro:wght@160..700&family=Space+Grotesk:wght@300..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Geologica:wght@100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Readex+Pro:wght@160..700&family=Space+Grotesk:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Geologica:wght@100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Space+Grotesk:wght@300..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  font-family: "IBM Plex Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 1000vh;
+}
+header {
+  width: 100%;
+  height: 10vh;
+  margin-top: 20px;
+  padding: 0 1rem;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.sershe {
+  width: 30%;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  height: 70%;
+  position: relative;
+}
+
+.sershe input {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  border-radius: 20px;
+  border: 0.2px solid #32323232;
+  padding: 0 45px;
+  font-size: 15px;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: rgb(58, 58, 58);
+  font-family: "Readex Pro", sans-serif;
+}
+
+.sershe input:focus {
+  outline: none;
+}
+.sershe .sersh-icon {
+  position: absolute;
+  left: 0;
+  transition: 0.3s ease-out;
+  padding: 10px 10px;
+  background-color: #656638;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  color: #ffff;
+}
+
+header nav button,
+.sersh-icon {
+  cursor: pointer;
+}
+
+header nav a {
+  color: #656638;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 10px;
+}
+header nav {
+  position: relative;
+}
+
+header .none {
+  display: none;
+}
+
+header nav button {
+  width: 100px;
+  height: 40px;
+  border: 0;
+
+  background-color: #656638;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.desgreption ul li {
+  font-family: "Alexandria", sans-serif;
+  margin: 10px 0;
+  list-style: none;
+  font-size: 25px;
+}
+
+.desgreption ul li i {
+  font-size: 18px;
+  transform: rotate(-18deg);
+}
+
+.desgreption h3 {
+  font-family: "Alexandria", sans-serif;
+  font-size: 30px;
+}
+
+.logo {
+  width: 100px;
+  height: 180%;
+  margin-left: 20px;
+}
+.logo img {
+  width: 70%;
+  height: 100%;
+}
+
+#section1 {
+  width: 100%;
+  height: 80vh;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+  padding: 1rem;
+  font-family: "Geologica", sans-serif;
+}
+#section1 .left,
+.right {
+  width: 47%;
+  height: 100%;
+}
+
+#section1 .right {
+  width: 50%;
+  height: 65vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#section1 .left {
+  width: 50%;
+  height: 65vh;
+  align-items: flex-start;
+  justify-content: flex-start;
+  display: flex;
+
+  padding: 1rem;
+}
+
+#section1 .right img {
+  width: 100%;
+  height: 150%;
+}
+
+.left .deskrption p {
+  color: #8b8c4b;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.left .deskrption p span {
+  font-weight: 800;
+  color: #656638;
+}
+
+.left .deskrption .small {
+  font-size: 18px;
+  color: #344433;
+}
+
+#section1 .left .deskrption button {
+  width: 200px;
+  height: 40px;
+  border: 0;
+  margin-top: 30px;
+  background-color: #656638;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}
+
+#section2 {
+  width: 100%;
+  height: 25vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  margin-top: 70px;
+  padding: 1rem;
+  font-family: "Geologica", sans-serif;
+}
+
+#section2 .continar {
+  width: 90%;
+  height: 100%;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 15px;
+}
+
+#section2 .continar .item {
+  width: calc(100% / 4);
+  height: 100%;
+  border-radius: 10px;
+  color: #656638;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: solid 0.2px rgba(0, 0, 0, 0.158);
+  padding: 10px;
+  transition: 0.3s ease-out;
+}
+
+#section2 .continar .item:hover {
+  transform: scale(1.05);
+}
+
+#section2 .continar .item svg {
+  width: 40px;
+  color: #656638;
+}
+
+#section2 .continar .item h3 {
+  color: #353;
+}
+#section2 .continar .item p {
+  color: #444;
+  font-size: 14px;
+}
+
+#section3 {
+  height: 47vh;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  gap: 10px;
+  margin-top: 70px;
+  padding: 1rem;
+  width: 100%;
+}
+
+#section3 .item {
+  width: 22%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#section3 .item img {
+  width: 100%;
+  height: 100%;
+}
+
+#section3 .item .descawent {
+  font-family: "Alexandria", sans-serif;
+  width: 100%;
+  height: 90px;
+  transform: translatey(100px, 0);
+  padding: 5px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  opacity: 0;
+
+  transition: 0.3s ease-out;
+}
+
+#section3 .item:hover .descawent {
+  top: 68%;
+  left: 0;
+  opacity: 1;
+}
+
+.descawent .stars {
+  color: rgb(255, 183, 0);
+}
+
+.descawent p {
+  font-size: 20px;
+  font-weight: 700;
+  transform: scaleY(1.2);
+  margin: 5px 7px;
+  color: #ffffff;
+}
+
+.descawent .pirse {
+  width: 100%;
+  height: 20px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 1rem;
+}
+
+.descawent .pirse h3 {
+  color: rgb(43, 206, 78);
+}
+.descawent .pirse del {
+  font-weight: 500;
+  color: crimson;
+}
+
+.descawent hr {
+  width: 90%;
+  margin: 5px auto;
+}
+
+#section4 {
+  width: 90%;
+  height: 60vh;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  margin-top: 70px;
+  padding: 1rem;
+  font-family: "Geologica", sans-serif;
+  position: relative;
+
+  background-color: cadetblue;
+}
+
+#section4 .left {
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+}
+
+#section4 .left img {
+  width: 75%;
+  height: 90%;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+#section4 .right {
+  width: 50%;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #fff;
+}
+
+#section4 .right span {
+  font-weight: 600;
+  font-size: 19px;
+}
+
+#section4 .right h2 {
+  font-size: 30px;
+}
+
+#section4 .right p {
+  color: rgba(0, 0, 0, 0.534);
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+#section4 .right .pirse {
+  width: 100%;
+  height: 20px;
+  gap: 20px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  display: flex;
+}
+
+#section4 .right .pirse h3{
+  font-size: 23px;
+  color: green;
+  background-color: honeydew;
+  padding:5px 10px;
+  border-radius: 20px;
+} 
+#section4 .right .pirse del{
+
+  font-size: 17px;
+  color: rgb(255, 2, 2);
+  background-color: rgba(255, 164, 164, 0.459);
+  padding:5px 10px;
+  border-radius: 20px;
+}
+
+
+#section4 .right .pirse button{
+
+width: 200px;
+height: 40px;
+border-radius: 20px;
+border: 0;
+font-size: 18px;
+font-weight: 500;
+color: #fff;
+background-color: rgb(11, 235, 255);
+}
+
+
+.custom-shape-divider-top-1760909051 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 1;
+}
+
+.custom-shape-divider-top-1760909051 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 90px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1760909051 .shape-fill {
+  fill: #ffffff;
+}
